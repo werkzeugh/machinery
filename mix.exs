@@ -31,8 +31,8 @@ defmodule Machinery.Mixfile do
   # Run "mix help deps" to learn about dependencies.
   defp deps do
     [
-      {:phoenix, "~> 1.3"},
-      {:phoenix_html, "~> 2.9"},
+      {:phoenix, github: "phoenixframework/phoenix"},
+      {:phoenix_html, "~> 2.11"},
       {:cowboy, "~> 1.0"},
       {:excoveralls, "~> 0.7", only: :test},
       {:ecto, "~> 2.1"},
